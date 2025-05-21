@@ -6,7 +6,7 @@ class PartylistTemplateSpider(scrapy.Spider):
     allowed_domains = ["en.wikipedia.org"]
 
     def start_requests(self):
-        years = [1998, 2001, 2004, 2007, 2010, 2013, 2016, 2019, 2022]
+        years = [1998, 2001, 2004, 2007, 2010, 2013, 2016, 2019, 2022, 2025]
         template_pages = [
             f"https://en.wikipedia.org/wiki/Template:{year}_Philippine_House_party-list_election_results"
             for year in years
