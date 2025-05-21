@@ -1,0 +1,17 @@
+echo "
+# Byte-compiled
+__pycache__/
+*.pyc
+
+# Environments
+venv/
+.env/
+
+# Output data
+*.csv
+*.json
+debug_*.html
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+" > .gitignore
